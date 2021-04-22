@@ -7,7 +7,7 @@ var diceRoll = [];
 //start the game at node 1
 function startGame() {
     state = {}
-    showTextNode(1)
+    showTextNode(60)
     
 }
 //disable the second button if only one choice is available
@@ -49,7 +49,7 @@ const textNodes = [
     {
     
        id: 1,
-       text: 'You come to a fork in the road',
+       text: 'You depart from your home leaving by the main road out of the villiage. You come to a fork in the road.. ',
        options: [
            {
                text: 'Go Left', 
@@ -592,7 +592,18 @@ const textNodes = [
         ]
     },
 
-
+    {
+        id: 60, 
+                text: 'You are a buddying adventurer. Your village has been plagued with missing livestock, strange noises from deep within the nearby forest and surrounding areas. Tired of living in fear you decide to depart from the villiage in search of the terror that stalks your home.',
+                options: [
+                    {
+                        text: 'Start your adventure!', 
+                        nextText: 1 
+                
+                    },
+                    
+        ]
+    },
 ]
     
 
