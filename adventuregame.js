@@ -49,7 +49,7 @@ const textNodes = [
     {
     
        id: 1,
-       text: 'You depart from your home leaving by the main road out of the villiage. You come to a fork in the road.. ',
+       text: 'You depart from your home leaving by the main road out of the village. You come to a fork in the road.. ',
        options: [
            {
                text: 'Go Left', 
@@ -263,7 +263,7 @@ const textNodes = [
     },
     {
         id: 42,
-        text: 'DIRECT HIT! The beast falls to the floor, lifeless and defeated! You take the head as a trophy of your victory and head back to the villiage',
+        text: 'DIRECT HIT! The beast falls to the floor, lifeless and defeated! You take the head as a trophy of your victory and head back to the village',
         options: [
             {
                 text: 'VICTORY! Restart your journey?', 
@@ -274,7 +274,7 @@ const textNodes = [
     },
     {
         id: 44,
-        text: 'DIRECT HIT! The beast falls to the floor, lifeless and defeated! You are wounded but alive! You take the head as a trophy of your victory and head back to the villiage',
+        text: 'DIRECT HIT! The beast falls to the floor, lifeless and defeated! You are wounded but alive! You take the head as a trophy of your victory and head back to the village',
         options: [
             {
                 text: 'VICTORY! Restart your journey?', 
@@ -594,7 +594,7 @@ const textNodes = [
 
     {
         id: 60, 
-                text: 'You are a buddying adventurer. Your village has been plagued with missing livestock, strange noises from deep within the nearby forest and surrounding areas. Tired of living in fear you decide to depart from the villiage in search of the terror that stalks your home.',
+                text: 'You are a buddying adventurer. Your village has been plagued with missing livestock, strange noises from deep within the nearby forest and surrounding areas. Tired of living in fear you decide to depart from the village in search of the terror that stalks your home.',
                 options: [
                     {
                         text: 'Start your adventure!', 
