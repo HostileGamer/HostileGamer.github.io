@@ -4,7 +4,7 @@ const optionButtons = document.getElementById('option-buttons')
 let state = {}
 var diceRoll = [];
   
-//start the game at node 1
+//start the game at node 60
 function startGame() {
     state = {}
     showTextNode(60)
